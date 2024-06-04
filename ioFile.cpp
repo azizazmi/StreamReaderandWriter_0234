@@ -25,4 +25,7 @@ int main() {
     }
     //selesai dalam menulis sekarang tutup filenya
     outfile.close();
+
+    cout << endl << ">= Membuka dan membaca file " << endl;
+    
 }
