@@ -28,6 +28,8 @@ int main() {
 
     //Membuka file dalam mode membaca
     ifstream infile;
+    //menunjuk ke sebuah file
+    infile.open("contohfile.txt");
 
     cout << endl << ">= Membuka dan membaca file " << endl;
 
